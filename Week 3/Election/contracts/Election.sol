@@ -6,7 +6,7 @@ contract Election {
     // Read candidate
     string public candidate;
     // Constructor
-    function Election () public {
+    constructor() public {
         candidate = "Candidate 1";
     }
 }
